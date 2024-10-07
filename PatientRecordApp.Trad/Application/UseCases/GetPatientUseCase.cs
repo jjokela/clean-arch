@@ -4,7 +4,7 @@ using PatientRecordApp.Trad.Domain.Interfaces;
 
 namespace PatientRecordApp.Trad.Application.UseCases;
 
-public class GetPatientUseCase(IMedicalRecordRepository medicalRecordRepository) : IUseCase<int, Patient>
+public class GetPatientUseCase(IMedicalRecordRepository medicalRecordRepository) : IGetPatientUseCase
 {
     public Patient Execute(int patientId)
     {
