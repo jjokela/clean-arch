@@ -6,7 +6,7 @@ namespace PatientRecordApp.Trad.Application.UseCases;
 
 public class GetPatientUseCase(IMedicalRecordRepository medicalRecordRepository) : IGetPatientUseCase
 {
-    public Patient Execute(int patientId)
+    public Patient? Execute(int patientId)
     {
         return medicalRecordRepository.GetPatientById(patientId);
     }

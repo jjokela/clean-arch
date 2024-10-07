@@ -14,8 +14,7 @@ ConfigureServices(serviceCollection);
 var serviceProvider = serviceCollection.BuildServiceProvider();
 var controller = serviceProvider.GetService<IPatientController>();
 
-var patient = controller.GetPatient(123);
-Console.WriteLine(patient.Name);
+controller!.DisplayPatientInformation(123);
 
 void ConfigureServices(ServiceCollection services)
 {
@@ -24,8 +23,8 @@ void ConfigureServices(ServiceCollection services)
     services.AddTransient<IRiskAssessmentService, RiskAssessmentService>();
     services.AddTransient<IRiskAssessmentService, RiskAssessmentService>();
     services.AddTransient<IGetPatientUseCase, GetPatientUseCase>();
+    services.AddTransient<ICalculateRiskScoreUseCase, CalculateRiskScoreUseCase>();
     services.AddTransient<IPatientController, PatientController>();
 }
-
 
 Console.ReadLine();

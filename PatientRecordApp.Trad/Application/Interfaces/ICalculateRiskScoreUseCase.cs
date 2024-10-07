@@ -2,7 +2,7 @@
 
 namespace PatientRecordApp.Trad.Application.Interfaces;
 
-public interface IGetPatientUseCase
+public interface ICalculateRiskScoreUseCase
 {
-    Patient? Execute(int patientId);
+    int Execute(Patient patient);
 }

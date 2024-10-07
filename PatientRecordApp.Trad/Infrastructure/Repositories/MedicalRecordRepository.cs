@@ -5,7 +5,7 @@ namespace PatientRecordApp.Trad.Infrastructure.Repositories;
 
 public class MedicalRecordRepository : IMedicalRecordRepository
 {
-    public Patient GetPatientById(int patientId)
+    public Patient? GetPatientById(int patientId)
     {
         return new Patient
         {

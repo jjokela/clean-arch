@@ -4,5 +4,5 @@ namespace PatientRecordApp.Trad.Domain.Interfaces;
 
 public interface IMedicalRecordRepository
 {
-    public Patient GetPatientById(int patientId);
+    public Patient? GetPatientById(int patientId);
 }
