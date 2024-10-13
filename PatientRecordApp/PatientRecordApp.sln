@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientRecordApp", "PatientRecordApp.csproj", "{61DBF566-B353-46F1-B508-6E109A8BAE00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientRecordApp", "PatientRecordApp.csproj", "{61DBF566-B353-46F1-B508-6E109A8BAE00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientRecordApp.Trad", "..\PatientRecordApp.Trad\PatientRecordApp.Trad.csproj", "{FDF64565-A156-4FBF-9641-4AF5E419F00E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientRecordApp.Trad", "..\PatientRecordApp.Trad\PatientRecordApp.Trad.csproj", "{FDF64565-A156-4FBF-9641-4AF5E419F00E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientRecordApp.VerticalSlice", "..\PatientRecordApp.VerticalSlice\PatientRecordApp.VerticalSlice.csproj", "{380B63F4-9749-4228-B587-F87626D2F6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientRecordApp.VerticalSlice.Test", "..\PatientRecordApp.VerticalSlice.Test\PatientRecordApp.VerticalSlice.Test.csproj", "{6EDF5A67-C6A3-47D9-B7FF-F028AD09B6E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{FDF64565-A156-4FBF-9641-4AF5E419F00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDF64565-A156-4FBF-9641-4AF5E419F00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDF64565-A156-4FBF-9641-4AF5E419F00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380B63F4-9749-4228-B587-F87626D2F6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380B63F4-9749-4228-B587-F87626D2F6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380B63F4-9749-4228-B587-F87626D2F6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380B63F4-9749-4228-B587-F87626D2F6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDF5A67-C6A3-47D9-B7FF-F028AD09B6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDF5A67-C6A3-47D9-B7FF-F028AD09B6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDF5A67-C6A3-47D9-B7FF-F028AD09B6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDF5A67-C6A3-47D9-B7FF-F028AD09B6E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
